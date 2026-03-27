@@ -1,4 +1,7 @@
-import streamlit as st      # streamlit run app/app.py
+import streamlit as st
+import os;     import sys;
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# streamlit run app/app.py
 from llm.client import LLM
 
 
