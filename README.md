@@ -75,7 +75,7 @@ notes: pt advised to reduce stress + increase water intake
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/restructuring-agent.git
+git clone https://github.com/Mrwanawad/restructuring-agent.git
 cd restructuring-agent
 
 # Install dependencies
