@@ -2,7 +2,7 @@ import streamlit as st      # streamlit run app/app.py
 from llm.client import LLM
 
 
-st.set_page_config( 'Restructuring Data Chatbot', layout= 'wide' )
+st.set_page_config( 'Restructuring Data Agent', layout= 'wide' )
 
 llm = LLM( api_key= st.secrets['API_KEY'] )
 
