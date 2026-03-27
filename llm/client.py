@@ -1,7 +1,5 @@
 import os
 from dotenv import load_dotenv;         load_dotenv()
-import google.genai as genai
-from google.genai.errors import ClientError
 from llm.system_prompt import SYSTEM_PROMPT
 from typing import Dict, Any 
 from termcolor import colored
